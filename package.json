@@ -1,0 +1,15 @@
+{
+  "name": "express-starter-kit",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+    "method-override": "^2.3.5",
+    "nconf": "^0.7.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "MIT"
+}
