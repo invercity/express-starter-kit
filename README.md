@@ -1,4 +1,5 @@
 # Node.JS Express Starter KIT
+Starter KIT for Express based apps
 
 ## Requirements
 * Node.JS 0.10.31+
