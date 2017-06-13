@@ -1,4 +1,6 @@
 # Node.JS Express Starter KIT
+[![David](https://david-dm.org/invercity/express-starter-kit.svg)](https://david-dm.org/invercity/express-starter-kit)
+[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 Starter KIT for Express based apps
 
 ## Requirements
