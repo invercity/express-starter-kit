@@ -26,6 +26,10 @@
     "lint": "eslint src",
     "postinstall": "bower install --config.interactive=false"
   },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/invercity/express-starter-kit.git"

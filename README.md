@@ -12,7 +12,7 @@ Starter KIT for Express based apps
 - ESlint, Travis.CI, log4js configured
 
 ## Requirements
-* Node.JS 4 and above
+* Node.JS 8 and above
 
 ## Installation
 Clone project, and launch from project root:
