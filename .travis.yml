@@ -7,7 +7,9 @@ node_js:
   - "12"
 env:
   - NODE_ENV=travis
-script: lint
+cache:
+  npm
+script: npm run lint
 notifications:
   webhooks:
     urls:
