@@ -1,0 +1,34 @@
+{
+  "app": {
+    "port": "3000",
+    "secret": "12345667890",
+    "maxRequestSize": "1mb",
+    "log": "logs/app.log",
+    "cors": true
+  },
+  "mail": {
+    "smtp": {
+      "host": "localhost",
+      "port": 25,
+      "user": "",
+      "pass": ""
+    }
+  },
+  "log4js": {
+    "config": {
+      "appenders": {
+        "fileAppender": {
+          "type": "file",
+          "filename": "./logs/app/app.log"
+        },
+        "consoleAppender": {
+          "type": "console"
+        }
+      },
+      "categories": {
+        "default": { "appenders": ["fileAppender", "consoleAppender"], "level": "debug" }
+      }
+    },
+    "logLevel": "DEBUG"
+  }
+}
