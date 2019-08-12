@@ -5,6 +5,12 @@
 
 Starter KIT for Express based apps
 
+## Features
+- Express REST service
+- Bootstrap 3.x based UI
+- SMTP mailer
+- ESlint, Travis.CI, log4js configured
+
 ## Requirements
 * Node.JS 4 and above
 

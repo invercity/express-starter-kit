@@ -13,5 +13,22 @@
       "user": "",
       "pass": ""
     }
+  },
+  "log4js": {
+    "config": {
+      "appenders": {
+        "fileAppender": {
+          "type": "file",
+          "filename": "./logs/app/app.log"
+        },
+        "consoleAppender": {
+          "type": "console"
+        }
+      },
+      "categories": {
+        "default": { "appenders": ["fileAppender", "consoleAppender"], "level": "debug" }
+      }
+    },
+    "logLevel": "DEBUG"
   }
 }
