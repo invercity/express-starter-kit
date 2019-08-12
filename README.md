@@ -1,4 +1,5 @@
 # Node.JS Express Starter KIT
+[![GitHub Release](https://github-basic-badges.herokuapp.com/release/invercity/express-starter-kit.svg)]()
 [![Build Status](https://travis-ci.org/invercity/express-starter-kit.svg?branch=master)](https://travis-ci.org/invercity/express-starter-kit)
 [![David](https://david-dm.org/invercity/express-starter-kit.svg)](https://david-dm.org/invercity/express-starter-kit)
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
