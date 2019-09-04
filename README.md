@@ -2,6 +2,7 @@
 [![GitHub Release](https://github-basic-badges.herokuapp.com/release/invercity/express-starter-kit.svg)]()
 [![Build Status](https://travis-ci.org/invercity/express-starter-kit.svg?branch=master)](https://travis-ci.org/invercity/express-starter-kit)
 [![David](https://david-dm.org/invercity/express-starter-kit.svg)](https://david-dm.org/invercity/express-starter-kit)
+[![CodeFactor](https://www.codefactor.io/repository/github/invercity/express-starter-kit/badge)](https://www.codefactor.io/repository/github/invercity/express-starter-kit)
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
 Starter KIT for Express based apps
