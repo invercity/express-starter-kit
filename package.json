@@ -26,7 +26,7 @@
   },
   "scripts": {
     "start": "node index",
-    "lint": "eslint src",
+    "lint": "eslint src test",
     "test": "mocha --timeout 5000",
     "docker_build": "docker build -t express-starter-kit .",
     "docker_up": "docker-compose up",
