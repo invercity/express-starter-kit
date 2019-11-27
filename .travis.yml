@@ -4,11 +4,12 @@ node_js:
   - "8"
   - "10"
   - "12"
+  - "13"
 env:
   - NODE_ENV=travis
 cache:
   npm
-script: npm run lint
+script: npm run lint && npm test
 notifications:
   webhooks:
     urls:
