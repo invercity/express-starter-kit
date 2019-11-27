@@ -1,34 +1,40 @@
 {
   "name": "express-starter-kit",
-  "version": "1.2.1",
+  "version": "1.2.2",
+  "description": "Express based app template",
   "dependencies": {
     "body-parser": "^1.17.2",
     "bower": "^1.8.8",
     "compression": "^1.7.4",
-    "config": "^3.2.2",
+    "config": "^3.2.4",
     "cookie-parser": "^1.4.4",
-    "ejs": "^2.5.6",
+    "ejs": "^3.0.1",
     "express": "^4.15.3",
-    "express-session": "^1.16.2",
-    "log4js": "^5.1.0",
+    "express-session": "^1.17.0",
+    "log4js": "^6.1.0",
     "method-override": "^3.0.0",
-    "nodemailer": "^6.3.0",
+    "nodemailer": "^6.3.1",
     "nodemailer-smtp-transport": "^2.7.4",
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
-    "eslint": "^6.2.2",
+    "eslint": "^6.7.1",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.0"
+    "eslint-plugin-import": "^2.18.0",
+    "mocha": "^6.2.2",
+    "supertest": "^4.0.2"
   },
   "scripts": {
     "start": "node index",
-    "lint": "eslint src",
-    "postinstall": "bower install --config.interactive=false"
+    "lint": "eslint src test",
+    "test": "mocha --timeout 5000",
+    "docker_build": "docker build -t express-starter-kit .",
+    "docker_up": "docker-compose up",
+    "postinstall": "bower install --config.interactive=false --allow-root"
   },
   "engines": {
-    "node": "^8",
-    "npm": "^5"
+    "node": ">=8",
+    "npm": ">=5"
   },
   "repository": {
     "type": "git",
