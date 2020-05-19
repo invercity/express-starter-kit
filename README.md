@@ -1,8 +1,8 @@
-# Node.JS Express Starter KIT
+# express-starter-kit
 [![GitHub Release](https://github-basic-badges.herokuapp.com/release/invercity/express-starter-kit.svg)]()
 [![Build Status](https://travis-ci.org/invercity/express-starter-kit.svg?branch=master)](https://travis-ci.org/invercity/express-starter-kit)
-[![David](https://david-dm.org/invercity/express-starter-kit.svg)](https://david-dm.org/invercity/express-starter-kit)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/23ca4f215dc6497097ad0ad2e13c2936)](https://www.codacy.com/app/andriy.ermolenko/express-starter-kit?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=invercity/express-starter-kit&amp;utm_campaign=Badge_Grade)
+[![Dependencies](https://img.shields.io/librariesio/github/invercity/express-starter-kit.svg)](https://img.shields.io/librariesio/github/invercity/express-starter-kit)
+[![Codacy](https://api.codacy.com/project/badge/Grade/23ca4f215dc6497097ad0ad2e13c2936)](https://www.codacy.com/app/andriy.ermolenko/express-starter-kit?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=invercity/express-starter-kit&amp;utm_campaign=Badge_Grade)
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
 Starter KIT for Express based apps
