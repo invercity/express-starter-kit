@@ -11,21 +11,21 @@ Starter KIT for Express based apps
 -   Express REST service
 -   Bootstrap 3.x based UI****
 -   SMTP mailer
--   ESlint checking
+-   ESLint checking
 -   Travis.CI setup
 -   Logging with log4js
 -   Mocha + Supertest tests
 -   Basic Docker
 
 ## Requirements
--   Node.JS 8 and above
+-   Node.JS ```v12``` and above
 
 ## Installation
-Clone project, and launch from project root:
+Clone project, and launch from project root:  
 ```npm i```
     
 ## Configure app
-Edit ```config/<ENV>.json``` using your favourite editor for configuring
+Edit ```config/<ENV>.json``` using your favourite editor to configure app
 
 ## Check js style
 ```npm run lint```
@@ -39,4 +39,4 @@ Edit ```config/<ENV>.json``` using your favourite editor for configuring
 ## Running application in Docker
 ```npm run docker_up```
     
-Default application address in ```localhost:3000```   
+By default, application will work on ```localhost:3000```   
