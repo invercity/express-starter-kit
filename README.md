@@ -8,14 +8,20 @@
 Starter KIT for Express based apps
 
 ## Features
--   Express REST service
--   Bootstrap 3.x based UI****
--   SMTP mailer
--   ESLint checking
--   Travis.CI setup
--   Logging with log4js
--   Mocha + Supertest tests
--   Basic Docker
+- Express REST service
+- Bootstrap 3.x based UI****
+- SMTP mailer
+- ESLint checking
+- Travis.CI setup
+- Logging with log4js
+- Mocha + Supertest tests
+- Basic Docker
+## TODO
+- Github actions
+- Swagger
+- Migrate to Node@16, npm@8
+- Replace bower with npm
+- Vue@3, bootstrap@5, webpack@5 setup
 
 ## Requirements
 -   Node.JS ```v14``` and above
