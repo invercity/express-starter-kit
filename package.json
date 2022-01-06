@@ -3,13 +3,13 @@
   "version": "1.2.5",
   "description": "Express based app template",
   "dependencies": {
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.19.1",
     "bower": "^1.8.13",
     "compression": "^1.7.4",
     "config": "^3.3.6",
     "cookie-parser": "^1.4.6",
     "ejs": "^3.1.6",
-    "express": "^4.15.3",
+    "express": "^4.17.2",
     "express-session": "^1.17.2",
     "log4js": "^6.3.0",
     "method-override": "^3.0.0",
@@ -17,9 +17,9 @@
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
-    "eslint": "^8.4.0",
+    "eslint": "^8.6.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-import": "^2.25.4",
     "mocha": "^9.1.3",
     "supertest": "^6.1.6"
   },
@@ -32,7 +32,7 @@
     "postinstall": "bower install --config.interactive=false --allow-root"
   },
   "engines": {
-    "node": "^14.18.0"
+    "node": "^12.22.0 || ^14.18.0"
   },
   "repository": {
     "type": "git",
