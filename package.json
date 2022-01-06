@@ -1,28 +1,27 @@
 {
   "name": "express-starter-kit",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Express based app template",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "bower": "^1.8.12",
+    "body-parser": "^1.19.1",
+    "bower": "^1.8.13",
     "compression": "^1.7.4",
     "config": "^3.3.6",
-    "cookie-parser": "^1.4.5",
+    "cookie-parser": "^1.4.6",
     "ejs": "^3.1.6",
-    "express": "^4.15.3",
-    "express-session": "^1.17.1",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
     "log4js": "^6.3.0",
     "method-override": "^3.0.0",
-    "nodemailer": "^6.5.0",
-    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemailer": "^6.7.2",
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
-    "eslint": "^7.23.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1",
-    "mocha": "^8.3.2",
-    "supertest": "^6.1.3"
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "mocha": "^9.1.3",
+    "supertest": "^6.1.6"
   },
   "scripts": {
     "start": "node index",
@@ -33,8 +32,7 @@
     "postinstall": "bower install --config.interactive=false --allow-root"
   },
   "engines": {
-    "node": ">=12",
-    "npm": ">=6"
+    "node": "^12.22.0 || ^14.18.0"
   },
   "repository": {
     "type": "git",

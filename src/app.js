@@ -40,7 +40,7 @@ app.use(session({
   store: sessionStore
 }));
 app.use(cookieParser(config.get('app.secret')));
-app.use(favicon(path.join(__dirname, '../public/favicon.ico')));
+app.use(favicon(path.join(__dirname, '..', 'public', 'favicon.ico')));
 app.use(express.static(path.join(__dirname, '../public')));
 app.engine('html', render);
 app.set('view engine', 'html');
