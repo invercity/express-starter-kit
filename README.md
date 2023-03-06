@@ -19,15 +19,15 @@ Starter KIT for Express based apps
 ## TODO
 - Github actions
 - Swagger
-- Migrate to Node@16, npm@8
 - Replace bower with npm
-- Vue@3, bootstrap@5, webpack@5 setup
+- Vue@3, bootstrap@5 setup
 
 ## Requirements
 -   Node.JS ```v14``` and above
 
 ## Installation
 Clone project, and install app dependencies:  
+
 ```npm i```
     
 ## Configure app
