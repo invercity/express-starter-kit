@@ -1,9 +1,9 @@
 # Node.JS Express Starter KIT
-[![GitHub Release](https://github-basic-badges.herokuapp.com/release/invercity/express-starter-kit.svg)]()
+![GitHub package.json version](https://img.shields.io/github/package-json/v/invercity/express-starter-kit)
 [![Build Status](https://travis-ci.org/invercity/express-starter-kit.svg?branch=master)](https://travis-ci.org/invercity/express-starter-kit)
 [![Depfu](https://badges.depfu.com/badges/61a377c6b1c96818543591a295b7dcbf/overview.svg)](https://depfu.com/github/invercity/express-starter-kit?project_id=12848)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/23ca4f215dc6497097ad0ad2e13c2936)](https://www.codacy.com/app/andriy.ermolenko/express-starter-kit?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=invercity/express-starter-kit&amp;utm_campaign=Badge_Grade)
-[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+![LIcense](https://img.shields.io/github/license/invercity/express-starter-kit)
 
 Starter KIT for Express based apps
 
@@ -19,15 +19,15 @@ Starter KIT for Express based apps
 ## TODO
 - Github actions
 - Swagger
-- Migrate to Node@16, npm@8
 - Replace bower with npm
-- Vue@3, bootstrap@5, webpack@5 setup
+- Vue@3, bootstrap@5 setup
 
 ## Requirements
 -   Node.JS ```v14``` and above
 
 ## Installation
 Clone project, and install app dependencies:  
+
 ```npm i```
     
 ## Configure app

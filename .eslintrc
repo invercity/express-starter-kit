@@ -3,6 +3,7 @@
   "rules": {
     "comma-dangle": ["error", "never"],
     "class-methods-use-this": "off",
+    "global-require": "off",
     "object-curly-newline": [
       "error",
       {
@@ -10,6 +11,7 @@
         "multiline": true
       }
     ],
+    "import/no-extraneous-dependencies": "off",
     "radix": ["error", "as-needed"],
     "no-param-reassign": ["error", { "props": false }],
     "max-len": ["error", { "code": 100, "ignoreComments": true }]

@@ -41,6 +41,17 @@ app.use(session({
 }));
 app.use(cookieParser(config.get('app.secret')));
 app.use(favicon(path.join(__dirname, '..', 'public', 'favicon.ico')));
+
+if (config.get('useWebpackDevMiddleware')) {
+  const webpack = require('webpack');
+  const webpackDevMiddleware = require('webpack-dev-middleware');
+  const webpackConfig = require('../webpack.config.js');
+  const compiler = webpack(webpackConfig);
+  app.use(webpackDevMiddleware(compiler, {
+    publicPath: 'public/app'
+  }));
+}
+
 app.use(express.static(path.join(__dirname, '../public')));
 app.engine('html', render);
 app.set('view engine', 'html');
