@@ -40,7 +40,7 @@ app.use(session({
   store: sessionStore
 }));
 app.use(cookieParser(config.get('app.secret')));
-app.use(favicon(path.join(__dirname, '../public/favicon.ico')));
+app.use(favicon(path.join(__dirname, '..', 'public', 'favicon.ico')));
 
 if (config.get('useWebpackDevMiddleware')) {
   const webpack = require('webpack');
