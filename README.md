@@ -18,7 +18,7 @@ Starter KIT for Express based apps
 -   Basic Docker
 
 ## Requirements
--   Node.JS ```v12``` and above
+-   Node.JS ```v14``` and above
 
 ## Installation
 Clone project, and launch from project root:  
