@@ -44,7 +44,7 @@
     "docker_up": "docker-compose up"
   },
   "engines": {
-    "node": "^14.18.0 || ^16.13.0 || ^18.5.0 || ^20.5.0"
+    "node": "^16.13.0 || ^18.5.0 || ^20.5.0"
   },
   "repository": {
     "type": "git",

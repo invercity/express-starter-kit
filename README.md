@@ -22,7 +22,7 @@ Starter KIT for Express based apps
 - Vue@3, bootstrap@5 setup
 
 ## Requirements
--   Node.JS ```v14``` and above
+-   Node.JS ```v16``` and above
 
 ## Installation
 Clone project, and install app dependencies:  
