@@ -29,7 +29,7 @@
         "default": { "appenders": ["fileAppender", "consoleAppender"], "level": "debug" }
       }
     },
-    "logLevel": "DEBUG",
-    "useWebpackDevMiddleware": false
-  }
+    "logLevel": "DEBUG"
+  },
+  "useWebpackDevMiddleware": false
 }
