@@ -1,6 +1,6 @@
 {
   "name": "express-starter-kit",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Express based app template",
   "dependencies": {
     "body-parser": "^1.20.2",
@@ -15,7 +15,6 @@
     "log4js": "^6.8.0",
     "method-override": "^3.0.0",
     "nodemailer": "^6.9.1",
-    "nodemailer-smtp-transport": "^2.7.4",
     "popper.js": "^1.16.1",
     "serve-favicon": "^2.5.0"
   },
@@ -45,7 +44,7 @@
     "docker_up": "docker-compose up"
   },
   "engines": {
-    "node": "^14.18.0 || ^16.13.0 || ^18.5.0 || ^19.3.0"
+    "node": "^14.18.0 || ^16.13.0 || ^18.5.0 || ^20.5.0"
   },
   "repository": {
     "type": "git",
