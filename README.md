@@ -14,15 +14,14 @@ Starter KIT for Express based apps
 - ESLint checking
 - Github actions
 - Logging with log4js
-- Mocha + Supertest tests
+- Node native + Supertest tests
 - Basic Docker
 ## TODO
 - Swagger
-- Replace bower with npm
-- Vue@3, bootstrap@5 setup
+- React basic setup
 
 ## Requirements
--   Node.JS ```v16``` and above
+-   Node.JS ```v20``` and above
 
 ## Installation
 Clone project, and install app dependencies:  
@@ -44,4 +43,4 @@ Edit ```config/<ENV>.json``` using your favourite editor to configure app
 ## Running application in Docker
 ```npm run docker_up```
     
-By default, application will work on ```localhost:3000```   
+By default, the application will work on ```localhost:3000```   
