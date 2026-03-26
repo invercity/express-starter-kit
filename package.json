@@ -1,6 +1,6 @@
 {
   "name": "express-starter-kit",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "Express based app template",
   "dependencies": {
     "body-parser": "^1.20.2",
